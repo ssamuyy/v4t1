@@ -10,7 +10,7 @@ public class App {
         
         boolean running = true;
         while (running) {
-            System.out.println("1) Lisää luolaan hirviö");
+            System.out.println("\n1) Lisää luolaan hirviö");
             System.out.println("2) Listaa hirviöt");
             System.out.println("3) Hyökkää hirviöön");
             System.out.println("4) Tallenna peli");
