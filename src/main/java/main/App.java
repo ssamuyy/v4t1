@@ -24,7 +24,7 @@ public class App {
                 case 1:
                     System.out.print("Anna hirviön tyyppi: ");
                     String type = scanner.nextLine();
-                    System.out.print("Anna hirviön elämän määrä numerona: ");
+                    System.out.print("\nAnna hirviön elämän määrä numerona: ");
                     int health = scanner.nextInt();
                     cave.addMonster(new Monster(type, health));
                     break;
