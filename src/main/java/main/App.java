@@ -29,7 +29,7 @@ public class App {
                     cave.addMonster(new Monster(type, health));
                     break;
                 case 2:
-                    System.out.println("Luolan hirviöt:");
+                    System.out.print("Luolan hirviöt:");
                     cave.listMonsters();
                     break;
                 case 3:
